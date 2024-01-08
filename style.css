@@ -1,0 +1,47 @@
+*, html, body {
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+.title {
+    background-color: skyblue;
+    color: black;
+    font-size: 16 px;
+    font-weight: 400;
+    text-align: center;
+    padding: 8px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh ;
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column ;
+    gap: 4px;
+}
+
+.container label {
+    font-size: 20px;
+    color: black;
+}
+
+.container input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 16px 8 px;
+    font-size: 18px;
+}
