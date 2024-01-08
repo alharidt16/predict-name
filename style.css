@@ -40,6 +40,7 @@ main {
 }
 
 .container input{
+    text-align: center ;
     border: none;
     border-bottom: 1px solid black;
     padding: 16px 8 px;
